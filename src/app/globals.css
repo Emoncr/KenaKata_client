@@ -1,33 +1,59 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
+
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    /* ========== Font Sizes ========= */
+    --font-xxs: 12px;
+    --font-xs: 13px;
+    --font-sm: 14px;
+    --font-md: 16px;
+    --font-lg: 17px;
+    --font-xl: 19px;
+    --font-xxl: 58px;
+
+    /* ========== Brand Colors ========= */
+    --color-brand: #3bb77e;
+    --color-brand-dark: #29a56c;
+    --color-brand-2: #fdc040;
+    --color-primary: #5a97fa;
+    --color-secondary: #3e5379;
+    --color-warning: #ff9900;
+    --color-danger: #fd6e6e;
+    --color-success: #81b13d;
+    --color-info: #2cc1d8;
+
+    /* ========== Text Colors ========= */
+    
+    --color-text: #7e7e7e;
+    --color-heading: #253d4e;
+    --color-grey-1: --color-heading;
+    --color-grey-2: #242424;
+    --color-grey-4: #adadad;
+    --color-grey-9: #f4f5f9;
+    --color-muted: #b6b6b6;
+    --color-body: #7e7e7e;
+
+    /* ========== Box Shadow ========= */
+
+    --box-shadown-1: 20px 20px 40px rgba(0, 0, 0, 0.07);
+    --box-shadown-2: 5px 5px 15px rgba(0, 0, 0, 0.05);
+    --box-shadown-3: 20px 20px 54px rgba(0, 0, 0, 0.03);
+    --box-shadown-3-hover: 20px 20px 54px rgba(0, 0, 0, 0.05);
+
+
+    /* ========== Border Color ========= */
+    --border-color: #ececec;
+    --border-color-2: #bce3c9;
+
+    /* ========== Background Color ========= */
+    --background-1: #f2f3f4;
+    --background-2: #f4f6fa;
+    --background-3: #def9ec;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
