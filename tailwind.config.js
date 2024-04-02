@@ -6,6 +6,15 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontSize: {
+      xxs: "var(--font-xxs)",
+      xs: "var(--font-xs)",
+      sm: "var(--font-sm)",
+      base: "var(--font-md)",
+      lg: "var(--font-lg)",
+      xl: "var(--font-xl)",
+      "5xl": "var(--font-xxl)",
+    },
     extend: {
       fontFamily: {
         quicksand: ["var(--font-quicksand)"],
