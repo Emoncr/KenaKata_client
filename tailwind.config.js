@@ -31,6 +31,9 @@ module.exports = {
           danger: "var(--color-danger)",
           success: "var(--color-success)",
           info: "var(--color-info)",
+          background_1: "var(--background-1)",
+          background_2: "var(--background-2)",
+          background_3: "var(--background-3)",
         },
       },
       textColor: {
@@ -45,10 +48,18 @@ module.exports = {
           textBody: "var(--color-text-body)",
         },
       },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      borderColor: {
+        skin: {
+          border: "var(--border-color)",
+          border_2: "var( --border-color-2)",
+        },
+      },
+      boxShadow: {
+        skin: {
+          1: "var(--shadow-1)",
+          2: "var(--shadow-2)",
+          3: "var(--shadow-3)",
+        },
       },
     },
   },

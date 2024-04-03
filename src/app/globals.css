@@ -57,3 +57,11 @@
   }
 }
 
+
+.container{
+  @apply max-w-[1616px] mx-auto px-4
+}
+
+.text_content{
+  @apply text-skin-text font-medium text-sm
+}
