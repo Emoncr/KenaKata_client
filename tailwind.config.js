@@ -6,19 +6,19 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    fontSize: {
-      xxs: "var(--font-xxs)",
-      xs: "var(--font-xs)",
-      sm: "var(--font-sm)",
-      base: "var(--font-md)",
-      lg: "var(--font-lg)",
-      xl: "var(--font-xl)",
-      "5xl": "var(--font-xxl)",
-    },
     extend: {
       fontFamily: {
         quicksand: ["var(--font-quicksand)"],
         lato: ["var(--font-lato)"],
+      },
+      fontSize: {
+        xxs: "var(--font-xxs)",
+        xs: "var(--font-xs)",
+        sm: "var(--font-sm)",
+        base: "var(--font-md)",
+        lg: "var(--font-lg)",
+        xl: "var(--font-xl)",
+        '5xl': "var(--font-xxl)",
       },
       colors: {
         skin: {
@@ -34,10 +34,9 @@ module.exports = {
           background_1: "var(--background-1)",
           background_2: "var(--background-2)",
           background_3: "var(--background-3)",
-        },
-      },
-      textColor: {
-        skin: {
+    
+
+          // text colors
           text: "var(--color-text)",
           heading: "var(--color-heading)",
           grey1: "var(--color-grey-1)",
@@ -45,21 +44,18 @@ module.exports = {
           grey4: "var(--color-grey-4)",
           grey9: "var(--color-grey-9)",
           muted: "var(--color-muted)",
-          textBody: "var(--color-text-body)",
+          textBody: "var(--color-body)",
         },
       },
       borderColor: {
-        skin: {
-          border: "var(--border-color)",
-          border_2: "var( --border-color-2)",
-        },
+        border: "var(--border-color)",
+        border_2: "var(--border-color-2)",
       },
       boxShadow: {
-        skin: {
-          1: "var(--shadow-1)",
-          2: "var(--shadow-2)",
-          3: "var(--shadow-3)",
-        },
+        primary: "var(--box-shadow-1)",
+        secondary: "var(--box-shadow-2)",
+        tertiary: "var(--box-shadow-3)",
+        hover: "var(--box-shadow-3-hover)",
       },
     },
   },
