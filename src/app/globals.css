@@ -1,9 +1,6 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
 
 @layer base {
   :root {
@@ -28,7 +25,7 @@
     --color-info: #2cc1d8;
 
     /* ========== Text Colors ========= */
-    
+
     --color-text: #7e7e7e;
     --color-heading: #253d4e;
     --color-grey-1: --color-heading;
@@ -45,7 +42,6 @@
     --box-shadown-3: 20px 20px 54px rgba(0, 0, 0, 0.03);
     --box-shadown-3-hover: 20px 20px 54px rgba(0, 0, 0, 0.05);
 
-
     /* ========== Border Color ========= */
     --border-color: #ececec;
     --border-color-2: #bce3c9;
@@ -57,11 +53,6 @@
   }
 }
 
-
-.container{
-  @apply max-w-[1616px] mx-auto px-4
-}
-
-.text_content{
-  @apply text-skin-text font-medium text-sm
+.container {
+  @apply max-w-[1620px] mx-auto px-5;
 }
