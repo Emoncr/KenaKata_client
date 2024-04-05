@@ -11,7 +11,7 @@
     --font-md: 16px;
     --font-lg: 17px;
     --font-xl: 19px;
-    --font-xxl: 58px;
+    --font-xxl: 72px;
 
     /* ========== Brand Colors ========= */
     --color-brand: #3bb77e;
@@ -55,4 +55,8 @@
 
 .container {
   @apply max-w-[1620px] mx-auto px-5;
+}
+
+.bannderBG {
+  background: url("/images/slider-1-min.png");
 }
