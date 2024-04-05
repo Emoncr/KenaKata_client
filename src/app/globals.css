@@ -60,3 +60,12 @@
 .bannderBG {
   background: url("/images/slider-1-min.png");
 }
+.feature_bg1 {
+  background: url("/images/banner-1.png");
+}
+.feature_bg2 {
+  background: url("/images/banner-2.png");
+}
+.feature_bg3 {
+  background: url("/images/banner-3.png");
+}
