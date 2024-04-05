@@ -38,7 +38,7 @@
     /* ========== Box Shadow ========= */
 
     --box-shadown-1: 20px 20px 40px rgba(0, 0, 0, 0.07);
-    --box-shadown-2: 5px 5px 15px rgba(0, 0, 0, 0.05);
+    --box-shadown-2: 5px 5px 40px rgba(0, 0, 0, 0.1);
     --box-shadown-3: 20px 20px 54px rgba(0, 0, 0, 0.03);
     --box-shadown-3-hover: 20px 20px 54px rgba(0, 0, 0, 0.05);
 
