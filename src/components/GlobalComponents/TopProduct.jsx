@@ -5,7 +5,7 @@ const TopProduct = () => {
         <div>
             <div>
                 <h3 className='font-bold font-quicksand text-xl md:text-2xl text-skin-heading'>Top Selling</h3>
-                <div className='mt-2 border-2 border-border_2  w-[80px]' ></div>
+                <div className='mt-2 border border-border  w-[100px]' ></div>
             </div>
             <div className='mt-4 md:mt-7 grid grid-cols-1 gap-y-4 '>
                 <div className='flex items-center justify-start gap-1'>
