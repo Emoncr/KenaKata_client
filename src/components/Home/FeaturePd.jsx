@@ -23,52 +23,52 @@ const FeaturePd = () => {
 
                 {/* Products sections */}
                 <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-10 gap-4 mt-6 md:mt-10'>
-                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px] max-w-[140px] flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
+                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px]   flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
                         <img className='group-hover:scale-105 duration-300' src="/dummy/cat-1.png" alt="Featere Product" />
                         <p className='mt-2 lg:mt-2 font-quicksand font-bold text-skin-heading text-base group-hover:text-skin-brand'>Vegetables</p>
                         <p className='font-lato font-normal text-skin-textBody text-base'>6 items</p>
                     </Link>
-                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px] max-w-[140px] flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
+                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px]   flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
                         <img className='group-hover:scale-105 duration-300' src="/dummy/cat-1.png" alt="Featere Product" />
                         <p className='mt-2 lg:mt-2 font-quicksand font-bold text-skin-heading text-base group-hover:text-skin-brand'>Vegetables</p>
                         <p className='font-lato font-normal text-skin-textBody text-base'>6 items</p>
                     </Link>
-                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px] max-w-[140px] flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
+                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px]   flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
                         <img className='group-hover:scale-105 duration-300' src="/dummy/cat-1.png" alt="Featere Product" />
                         <p className='mt-2 lg:mt-2 font-quicksand font-bold text-skin-heading text-base group-hover:text-skin-brand'>Vegetables</p>
                         <p className='font-lato font-normal text-skin-textBody text-base'>6 items</p>
                     </Link>
-                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px] max-w-[140px] flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
+                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px]   flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
                         <img className='group-hover:scale-105 duration-300' src="/dummy/cat-1.png" alt="Featere Product" />
                         <p className='mt-2 lg:mt-2 font-quicksand font-bold text-skin-heading text-base group-hover:text-skin-brand'>Vegetables</p>
                         <p className='font-lato font-normal text-skin-textBody text-base'>6 items</p>
                     </Link>
-                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px] max-w-[140px] flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
+                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px]   flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
                         <img className='group-hover:scale-105 duration-300' src="/dummy/cat-1.png" alt="Featere Product" />
                         <p className='mt-2 lg:mt-2 font-quicksand font-bold text-skin-heading text-base group-hover:text-skin-brand'>Vegetables</p>
                         <p className='font-lato font-normal text-skin-textBody text-base'>6 items</p>
                     </Link>
-                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px] max-w-[140px] flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
+                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px]   flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
                         <img className='group-hover:scale-105 duration-300' src="/dummy/cat-1.png" alt="Featere Product" />
                         <p className='mt-2 lg:mt-2 font-quicksand font-bold text-skin-heading text-base group-hover:text-skin-brand'>Vegetables</p>
                         <p className='font-lato font-normal text-skin-textBody text-base'>6 items</p>
                     </Link>
-                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px] max-w-[140px] flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
+                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px]   flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
                         <img className='group-hover:scale-105 duration-300' src="/dummy/cat-1.png" alt="Featere Product" />
                         <p className='mt-2 lg:mt-2 font-quicksand font-bold text-skin-heading text-base group-hover:text-skin-brand'>Vegetables</p>
                         <p className='font-lato font-normal text-skin-textBody text-base'>6 items</p>
                     </Link>
-                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px] max-w-[140px] flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
+                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px]   flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
                         <img className='group-hover:scale-105 duration-300' src="/dummy/cat-1.png" alt="Featere Product" />
                         <p className='mt-2 lg:mt-2 font-quicksand font-bold text-skin-heading text-base group-hover:text-skin-brand'>Vegetables</p>
                         <p className='font-lato font-normal text-skin-textBody text-base'>6 items</p>
                     </Link>
-                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px] max-w-[140px] flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
+                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px]   flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
                         <img className='group-hover:scale-105 duration-300' src="/dummy/cat-1.png" alt="Featere Product" />
                         <p className='mt-2 lg:mt-2 font-quicksand font-bold text-skin-heading text-base group-hover:text-skin-brand'>Vegetables</p>
                         <p className='font-lato font-normal text-skin-textBody text-base'>6 items</p>
                     </Link>
-                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px] max-w-[140px] flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
+                    <Link href={"/"} className='rounded-md bg-skin-background_1 pt-5 pb-[18px] w-full min-h-[180px]   flex items-center justify-center flex-col px-2 border border-solid border-transparent hover:border-border_2 hover:shadow-secondary duration-200 group'>
                         <img className='group-hover:scale-105 duration-300' src="/dummy/cat-1.png" alt="Featere Product" />
                         <p className='mt-2 lg:mt-2 font-quicksand font-bold text-skin-heading text-base group-hover:text-skin-brand'>Vegetables</p>
                         <p className='font-lato font-normal text-skin-textBody text-base'>6 items</p>

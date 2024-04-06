@@ -24,6 +24,11 @@
     --color-success: #81b13d;
     --color-info: #2cc1d8;
 
+    /* ========== Tag Colors ========= */
+    --color-hot: #dd3333;
+    --color-new: #55bb90;
+    --color-sale: #67bcee;
+    --color-best: #f59758;
     /* ========== Text Colors ========= */
 
     --color-text: #7e7e7e;
@@ -38,7 +43,7 @@
     /* ========== Box Shadow ========= */
 
     --box-shadown-1: 20px 20px 40px rgba(0, 0, 0, 0.07);
-    --box-shadown-2: 5px 5px 15px rgba(0, 0, 0, 0.05);
+    --box-shadown-2: 5px 5px 40px rgba(0, 0, 0, 0.1);
     --box-shadown-3: 20px 20px 54px rgba(0, 0, 0, 0.03);
     --box-shadown-3-hover: 20px 20px 54px rgba(0, 0, 0, 0.05);
 
@@ -59,4 +64,19 @@
 
 .bannderBG {
   background: url("/images/slider-1-min.png");
+}
+.feature_bg1 {
+  background: url("/images/banner-1.png");
+}
+.feature_bg2 {
+  background: url("/images/banner-2.png");
+}
+.feature_bg3 {
+  background: url("/images/banner-3.png");
+}
+.best_deal {
+  background: url("/dummy/banner-4.png");
+}
+.bottom_banner_bg {
+  background: url("/images/banner-10-min.png");
 }
