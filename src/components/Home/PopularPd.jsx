@@ -20,8 +20,16 @@ const PopularPd = () => {
                         <p className='text-sm md:text-base font-quicksand font-semibold text-skin-heading'>Milk</p>
                     </div>
                 </div>
-                <div className='mt-4'>
-                    <Product />
+                <div className='mt-4 lg:mt-10'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-5 gap-y-8'>
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                        <Product />
+                    </div>
                 </div>
             </div>
         </div>
