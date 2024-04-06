@@ -24,6 +24,11 @@
     --color-success: #81b13d;
     --color-info: #2cc1d8;
 
+    /* ========== Tag Colors ========= */
+    --color-hot: #dd3333;
+    --color-new: #55bb90;
+    --color-sale: #67bcee;
+    --color-best: #f59758;
     /* ========== Text Colors ========= */
 
     --color-text: #7e7e7e;
