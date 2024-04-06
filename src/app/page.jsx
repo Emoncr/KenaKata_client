@@ -4,6 +4,7 @@ import BottomBanner from "@/components/Home/BottomBanner";
 import FeatureCat from "@/components/Home/FeatureCat";
 import FeaturePd from "@/components/Home/FeaturePd";
 import PopularPd from "@/components/Home/PopularPd";
+import TopProducts from "@/components/Home/TopProducts";
 import MainLayout from "@/components/Layouts/MainLayout";
 
 export default function Home() {
@@ -15,7 +16,8 @@ export default function Home() {
         <FeatureCat />
         <PopularPd />
         <BestSale />
-        <BottomBanner/>
+        <BottomBanner />
+        <TopProducts />
       </MainLayout>
     </>
   );
