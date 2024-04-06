@@ -4,7 +4,7 @@ import { Star, ShoppingCart, Eye,GitCompareArrows,Heart } from "lucide-react"
 
 const Product = () => {
     return (
-        <div className='bg-white border border-solid border-border rounded-2xl duration-300 hover:shadow-secondary hover:border-border_2 cursor-pointer w-full max-w-[300px] mx-auto sm:mx-0 group'>
+        <div className='bg-white border border-solid border-border rounded-2xl duration-300 hover:shadow-secondary hover:border-border_2 cursor-pointer w-full md:max-w-[300px] mx-auto sm:mx-0 group'>
             <div className="px-6 pt-6 relative">
                 <div>
                     <img className='w-full' src="/dummy/product-5-1.jpg" alt="Product Image" />
