@@ -23,7 +23,7 @@ const BestSale = () => {
 
                         </div>
                     </div>
-                    <div className='grid grid-cols-1 lg:grid-cols-12 items-start lg:mt-4 w-full gap-5  mt-4'>
+                    <div className='grid grid-cols-1 lg:grid-cols-12 items-start lg:mt-7 w-full gap-5 mt-4'>
                         <div className='col-span-12 lg:col-span-3 h-full'>
                             <Link href={"/"} className="best_deal  !bg-cover !bg-center !bg-no-repeat rounded-lg px-4 sm:px-6 md:px-5 lg:px-6 xl:px-12 min-h-[220px] md:min-h-[300px] lg:min-h-[320px] flex items-start justify-start flex-col h-full py-10">
                                 <h4 className='font-bold font-quicksand text-xl md:text-3xl text-skin-heading'>Everyday fresh & <br />Clean  with Our <br />Products</h4>
@@ -35,17 +35,17 @@ const BestSale = () => {
                                 </div>
                             </Link>
                         </div>
-                        <div className='col-span-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
-                            <Product />
-                            <Product />
-                            <Product />
-                            <Product />
+                        <div className='lg:col-span-9 col-span-12 '>
+                            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
+                                <Product />
+                                <Product />
+                                <Product />
+                                <Product />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </section>
     )
 }
