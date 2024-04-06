@@ -1,3 +1,4 @@
+import Amenities from "@/components/GlobalComponents/Amenities";
 import Banner from "@/components/Home/Banner";
 import BestSale from "@/components/Home/BestSale";
 import BottomBanner from "@/components/Home/BottomBanner";
@@ -16,8 +17,9 @@ export default function Home() {
         <FeatureCat />
         <PopularPd />
         <BestSale />
-        <BottomBanner />
         <TopProducts />
+        <BottomBanner />
+        <Amenities />
       </MainLayout>
     </>
   );
