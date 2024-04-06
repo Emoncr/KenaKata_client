@@ -1,5 +1,7 @@
 import React from 'react'
 import Product from '../GlobalComponents/Product'
+import Link from 'next/link'
+
 
 const PopularPd = () => {
     return (
@@ -10,14 +12,13 @@ const PopularPd = () => {
                         <h2 className='font-bold font-quicksand text-xl md:text-3xl text-skin-heading'>Popular Products</h2>
                     </div>
                     <div className='flex items-center justify-start gap-5 flex-wrap'>
-                        <p className='text-sm md:text-base font-quicksand font-semibold text-skin-heading'>Milk</p>
-                        <p className='text-sm md:text-base font-quicksand font-semibold text-skin-heading'>Milk</p>
-                        <p className='text-sm md:text-base font-quicksand font-semibold text-skin-heading'>Milk</p>
-                        <p className='text-sm md:text-base font-quicksand font-semibold text-skin-heading'>Milk</p>
-                        <p className='text-sm md:text-base font-quicksand font-semibold text-skin-heading'>Milk</p>
-                        <p className='text-sm md:text-base font-quicksand font-semibold text-skin-heading'>Milk</p>
-                        <p className='text-sm md:text-base font-quicksand font-semibold text-skin-heading'>Milk</p>
-                        <p className='text-sm md:text-base font-quicksand font-semibold text-skin-heading'>Milk</p>
+                        <Link href={"/"} className='text-sm md:text-base font-quicksand font-bold text-skin-heading hover:-translate-y-1 duration-500 hover:text-skin-brandDark'>Milk</Link>
+                        <Link href={"/"} className='text-sm md:text-base font-quicksand font-bold text-skin-heading hover:-translate-y-1 duration-500 hover:text-skin-brandDark'>Milk</Link>
+                        <Link href={"/"} className='text-sm md:text-base font-quicksand font-bold text-skin-heading hover:-translate-y-1 duration-500 hover:text-skin-brandDark'>Milk</Link>
+                        <Link href={"/"} className='text-sm md:text-base font-quicksand font-bold text-skin-heading hover:-translate-y-1 duration-500 hover:text-skin-brandDark'>Milk</Link>
+                        <Link href={"/"} className='text-sm md:text-base font-quicksand font-bold text-skin-heading hover:-translate-y-1 duration-500 hover:text-skin-brandDark'>Milk</Link>
+                        <Link href={"/"} className='text-sm md:text-base font-quicksand font-bold text-skin-heading hover:-translate-y-1 duration-500 hover:text-skin-brandDark'>Milk</Link>
+                  
                     </div>
                 </div>
                 <div className='mt-4 lg:mt-10'>

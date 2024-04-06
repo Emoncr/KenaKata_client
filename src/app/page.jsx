@@ -1,4 +1,5 @@
 import Banner from "@/components/Home/Banner";
+import BestSale from "@/components/Home/BestSale";
 import FeatureCat from "@/components/Home/FeatureCat";
 import FeaturePd from "@/components/Home/FeaturePd";
 import PopularPd from "@/components/Home/PopularPd";
@@ -12,6 +13,7 @@ export default function Home() {
         <FeaturePd />
         <FeatureCat />
         <PopularPd />
+        <BestSale />
       </MainLayout>
     </>
   );
