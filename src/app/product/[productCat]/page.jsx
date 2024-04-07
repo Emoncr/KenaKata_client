@@ -1,5 +1,5 @@
 import BreadCrumb from '@/components/GlobalComponents/BreadCrumb';
-import MainLayout from '@/components/Layouts/MainLayout'
+import MainLayout from '@/components/Layouts/MainLayout';
 import React from 'react'
 
 const ProductCat = ({ params }) => {
@@ -7,7 +7,6 @@ const ProductCat = ({ params }) => {
     return (
         <MainLayout>
             <BreadCrumb />
-            <h1 className='py-20 text-7xl'>{params.productCat}</h1>
         </MainLayout>
     )
 }
