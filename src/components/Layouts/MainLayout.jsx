@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../Home/Header'
+import SiteFooter from '../GlobalComponents/SiteFooter'
 
 const MainLayout = ({ children }) => {
     return (
@@ -8,6 +9,7 @@ const MainLayout = ({ children }) => {
             <main>
                 {children}
             </main>
+            <SiteFooter />
         </>
     )
 }
