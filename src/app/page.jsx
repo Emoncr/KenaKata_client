@@ -21,7 +21,6 @@ export default function Home() {
         <TopProducts />
         <BottomBanner />
         <Amenities />
-        <SiteFooter />
       </MainLayout>
     </>
   );
