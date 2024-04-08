@@ -2,6 +2,7 @@ import React from 'react'
 import { Star, Plus, Minus, ShoppingCart, Heart, GitCompareArrows } from "lucide-react"
 import Link from "next/link"
 import CommentForm from '../FormComponents/CommentForm'
+import Product from '../GlobalComponents/Product'
 
 
 const ProductDetails = () => {
@@ -126,6 +127,17 @@ const ProductDetails = () => {
 
                         <CommentForm />
                     </div>
+                </div>
+            </div>
+            <div className='mt-5 lg:mt-8'>
+                <div>
+                    <h3 className='font-bold font-quicksand text-xl md:text-2xl text-skin-heading'>Related products</h3>
+                    <div className='mt-2 border border-border  w-[100px]' ></div>
+                </div>
+                <div className='mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 '>
+                    <Product />
+                    <Product />
+                    <Product />
                 </div>
             </div>
         </div >
