@@ -1,11 +1,11 @@
 import React from 'react'
-import {Star} from 'lucide-react'
+import { Star } from 'lucide-react'
 const TopProduct = () => {
     return (
         <div>
             <div>
-                <h3 className='font-bold font-quicksand text-xl md:text-2xl text-skin-heading'>Top Selling</h3>
-                <div className='mt-2 border border-border  w-[100px]' ></div>
+                <h4 className='font-bold font-quicksand text-xl md:text-2xl text-skin-heading border-b border-border pb-4'>Top Products</h4>
+                <div className='-mt-[2px] border border-skin-brand  w-[150px]' ></div>
             </div>
             <div className='mt-4 md:mt-7 grid grid-cols-1 gap-y-4 '>
                 <div className='flex items-center justify-start gap-1'>
