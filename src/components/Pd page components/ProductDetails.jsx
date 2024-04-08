@@ -8,7 +8,7 @@ import Product from '../GlobalComponents/Product'
 const ProductDetails = () => {
     return (
         <div>
-            <div className='grid grid-cols-1 md:grid-cols-5 items-start gap-x-7 gap-y-4'>
+            <div className='grid grid-cols-1 md:grid-cols-5 items-start md:gap-x-6 lg:gap-x-8 xl:gap-x-10 2xl:gap-x-14 gap-y-4'>
                 <div className='col-span-1 md:col-span-2'>
                     <div className='bg-white rounded-2xl border border-solid border-border md:max-w-[420px]'>
                         <img className='w-full max-w-[420px]' src="/dummy/product-20-4-min.jpg" alt="product image" />
@@ -131,8 +131,8 @@ const ProductDetails = () => {
             </div>
             <div className='mt-5 lg:mt-8'>
                 <div>
-                    <h3 className='font-bold font-quicksand text-xl md:text-2xl text-skin-heading'>Related products</h3>
-                    <div className='mt-2 border border-border  w-[100px]' ></div>
+                    <h4 className='font-bold font-quicksand text-xl md:text-2xl text-skin-heading border-b border-border pb-4'>Related Products</h4>
+                    <div className='-mt-[2px] border border-skin-brand  w-[210px]' ></div>
                 </div>
                 <div className='mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 '>
                     <Product />
