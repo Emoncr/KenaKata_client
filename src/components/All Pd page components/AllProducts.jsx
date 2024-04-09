@@ -1,6 +1,8 @@
 import React from 'react'
 import Product from '../GlobalComponents/Product'
-import { Search } from "lucide-react"
+import { Search, Filter } from "lucide-react"
+
+
 const AllProducts = () => {
     return (
         <section className='py-16'>
@@ -9,15 +11,18 @@ const AllProducts = () => {
                     <div className='col-span-3'>
                         <div className='p-5 border border-border border-solid shadow-secondary rounded-2xl'>
                             <div>
-                                <h4 className='font-bold font-quicksand text-xl md:text-2xl text-skin-heading border-b border-border pb-4'>Filer Products</h4>
-                                <div className='-mt-[2px] border border-skin-brand  w-[160px]' ></div>
+                                <h4 className='font-bold font-quicksand text-xl md:text-2xl text-skin-heading border-b border-border pb-4 flex items-center justify-start gap-1'>
+                                    <Filter />
+                                    Filter
+                                </h4>
+                                <div className='-mt-[2px] border border-skin-brand  w-[90px]' ></div>
                             </div>
                             <div className='mt-5'>
                                 <div>
                                     <form className='relative'>
                                         <input type="text" placeholder="Search products..." className=" px-3 py-3 font-quicksand font-medium w-full border-2 rounded-md border-solid !border-border_2 focus:outline-skin-brandDark placeholder:text-skin-textBody placeholder:text-xs" />
 
-                                        <button className='bg-skin-brand absolute right-1.5 top-1/2 -translate-y-1/2 px-5 py-2.5 font-quicksand font-semibold text-sm text-white rounded-md tracking-wider hover:bg-skin-brand2 duration-300'>
+                                        <button className='text-skin-brand absolute right-1.5 top-1/2 -translate-y-1/2 px-3 py-2.5 font-quicksand font-semibold text-sm rounded-md tracking-wider duration-300'>
                                             <Search />
                                         </button>
                                     </form>

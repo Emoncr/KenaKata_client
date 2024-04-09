@@ -3,7 +3,7 @@ import Link from "next/link"
 const SiteNavbar = () => {
     return (
         <nav>
-            <ul className='flex items-center justify-center gap-12'>
+            <ul className='flex items-center justify-center gap-8 xl:gap-12'>
                 <li>
                     <Link
                         className='bg-transparent text-skin-heading duration-500 hover:text-skin-brandDark text-base font-bold font-quicksand flex items-center justify-start gap-1'
