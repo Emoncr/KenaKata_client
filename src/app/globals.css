@@ -86,3 +86,9 @@
 .bottom_banner_bg {
   background: url("/images/banner-10-min.png");
 }
+
+/* ============== Slick List ============ */
+.feature_items .slick-list .slick-track {
+  display: flex;
+  gap: 12px;
+}
