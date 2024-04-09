@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import Product from '../GlobalComponents/Product'
+import DealsSlider from '../Sliders/DealsSlider'
 
 
 const BestSale = () => {
@@ -36,11 +37,8 @@ const BestSale = () => {
                             </Link>
                         </div>
                         <div className='lg:col-span-9 col-span-12 '>
-                            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
-                                <Product />
-                                <Product />
-                                <Product />
-                                <Product />
+                            <div className='best_sale_slider'>
+                                <DealsSlider />
                             </div>
                         </div>
                     </div>
