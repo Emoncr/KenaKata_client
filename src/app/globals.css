@@ -92,3 +92,7 @@
   display: flex;
   gap: 12px;
 }
+.best_sale_slider .slick-list .slick-track {
+  display: flex;
+  gap: 12px;
+}

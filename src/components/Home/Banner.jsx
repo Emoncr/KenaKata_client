@@ -86,12 +86,10 @@ const Banner = () => {
 
                 <Slider className=' mx-auto sm:max-w-full' {...settings}>
                     <div className='bannderBG !bg-cover bg-center bg-no-repeat py-10 px-4 lg:py-12 lg:px-24 min-h-[400px] lg:min-h-[538px] !flex items-start justify-center flex-col rounded-md  md:rounded-[50px]'>
-                        <div>
-                            <h1 className='text-4xl sm:text-6xl xl:text-5xl font-bold text-skin-heading font-quicksand mb-4 lg:mb-8  sm:!leading-[72px]'>Don’t miss amazing <br />grocery deals</h1>
-                            <p className='font-lato font-normal text-skin-textBody text-lg lg:text-3xl'>Sing up for the daily newsletter</p>
-                            <div className='mt-10 lg:mt-14 w-full sm:max-w-lg'>
-                                <SubscribeForm />
-                            </div>
+                        <h1 className='text-4xl sm:text-6xl xl:text-5xl font-bold text-skin-heading font-quicksand mb-4 lg:mb-8  sm:!leading-[72px]'>Don’t miss amazing <br />grocery deals</h1>
+                        <p className='font-lato font-normal text-skin-textBody text-lg lg:text-3xl'>Sing up for the daily newsletter</p>
+                        <div className='mt-10 lg:mt-14 w-full sm:max-w-lg'>
+                            <SubscribeForm />
                         </div>
                     </div>
                     <div className='bannderBG_2 !bg-cover bg-center bg-no-repeat py-10 px-4 lg:py-12 lg:px-24 min-h-[400px] lg:min-h-[538px] !flex items-start justify-center flex-col rounded-md  md:rounded-[50px] '>
@@ -104,8 +102,8 @@ const Banner = () => {
                 </Slider>
 
 
-            </div>
-        </section>
+            </div >
+        </section >
     )
 }
 
