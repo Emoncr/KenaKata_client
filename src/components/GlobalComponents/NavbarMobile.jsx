@@ -35,7 +35,7 @@ const NavbarMobile = () => {
                             navExpand &&
                             <div
                                 className='absolute w-full top-16 left-0 z-50'>
-                                <div className='px-6 py-4 bg-white border border-solid border-border'>
+                                <div className='px-6 py-4 bg-white border-2 border-t-0 border-solid border-border'>
                                     <div onClick={() => setNavExpand(!navExpand)}>
                                         <SiteNavbar />
                                     </div>
