@@ -3,8 +3,7 @@ import BreadCrumb from '@/components/GlobalComponents/BreadCrumb';
 import MainLayout from '@/components/Layouts/MainLayout';
 import React from 'react'
 
-const ProductCat = ({ params }) => {
-    console.log(params);
+const AllProductsPage = () => {
     return (
         <MainLayout>
             <BreadCrumb />
@@ -13,4 +12,4 @@ const ProductCat = ({ params }) => {
     )
 }
 
-export default ProductCat
+export default AllProductsPage
