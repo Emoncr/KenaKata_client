@@ -45,11 +45,11 @@ const MiddleHeader = () => {
           <button className='flex items-center gap-1 text-skin-textBody font-lato font-semibold text-sm duration-300 hover:text-skin-heading relative group'>
             <UserRound />
             <p>Account</p>
-            <div className='absolute hidden group-hover:block  lg:p-5 bottom-0 left-0 '>
+            {/* <div className='absolute hidden group-hover:block  lg:p-5 bottom-0 left-0 '>
               <div className='bg-white border-border_2 shadow-lg mt-16 rounded-sm p-3'>
                 <p className='text-base font-medium font-lato'>Dashboard</p>
               </div>
-            </div>
+            </div> */}
           </button>
 
         </div>
