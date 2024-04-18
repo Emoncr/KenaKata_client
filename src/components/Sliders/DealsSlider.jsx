@@ -59,17 +59,14 @@ const DealsSlider = () => {
                 breakpoint: 700,
                 settings: {
                     slidesToShow: 2,
-
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-
                 }
             }
-
         ],
         appendDots: dots => (
             <div
