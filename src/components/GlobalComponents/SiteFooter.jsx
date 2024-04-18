@@ -12,7 +12,7 @@ const SiteFooter = () => {
                     <div className='grid items-start grid-cols-1 sm:grid-cols-12 gap-8 pb-10'>
                         <div className='col-span-12 sm:col-span-3'>
                             <div>
-                                <img src="https://themepanthers.com/wp/nest/d1/wp-content/uploads/2022/02/logo.png" alt="LOGO" />
+                                <img src="https://res.cloudinary.com/du6ditswt/image/upload/v1713471381/qmxvni3ihjoi4xfef9p5.png" alt="LOGO" />
                             </div>
                             <p className='text-skin-heading text-base font-normal mt-3 sm:mt-5 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
                             <div className='mt-5'>
