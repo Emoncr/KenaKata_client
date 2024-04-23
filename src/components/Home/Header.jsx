@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className='hidden lg:block'>
+      <div className='hidden lg:block relative'>
         <TopHeader />
         <MiddleHeader />
         <BottomHeader />
