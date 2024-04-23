@@ -7,14 +7,14 @@ const CartProduct = () => {
   return (
 
     <div className='grid grid-cols-6 items-center gap-1'>
-      <Link href={"/"}>
-        <div className='col-span-2'>
+      <Link className='col-span-2' href={"/"}>
+        <div >
           <img className='' src="/dummy/product-10-1.jpg" alt="Product image" />
         </div>
       </Link>
       <div className="col-span-4">
         <Link href={"/"} className='hover:underline transition-all'>
-          <h4 className='text-xl font-bold font-quicksand truncate text-skin-heading '>Product name</h4>
+          <h4 className='text-lg font-bold font-quicksand truncate text-skin-heading '>Product name</h4>
         </Link>
         <div className="rating-box  mt-0.5">
           <div className='flex items-center justify-start gap-0'>
@@ -45,7 +45,6 @@ const CartProduct = () => {
         </div>
       </div>
     </div>
-
   )
 }
 

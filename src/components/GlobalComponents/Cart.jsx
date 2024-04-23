@@ -10,7 +10,7 @@ const Cart = ({ cartClick }) => {
     return (
         <div
             onClick={() => setIsCartOpen(!isCartOpen)}
-            className={`absolute bg-skin-brandDarkLite z-50 right-0 top-0 ${isCartOpen ? 'w-full' : 'w-0'}  transition-all overflow-hidden flex justify-end duration-500 h-full min-h-screen max-h-full`}>
+            className={`absolute bg-skin-brandLite z-50 right-0 top-0 ${isCartOpen ? 'w-full' : 'w-0'}  transition-all overflow-hidden flex justify-end duration-500 h-full min-h-screen max-h-full`}>
             <div
                 onClick={(e) => e.stopPropagation()}
                 className={`custom_scrollbar bg-white overflow-hidden w-full max-w-md ${isCartOpen ? "blcok" : "hidden"} overflow-y-scroll  transition-all duration-500  mr-0 ml-0 drop-shadow-lg shadow-lg z-50`}>
