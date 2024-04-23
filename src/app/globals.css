@@ -16,6 +16,7 @@
     /* ========== Brand Colors ========= */
     --color-brand: #3bb77e;
     --color-brand-dark: #29a56c;
+    --color-brand-lite: #3bb77e7d;
     --color-brand-2: #fdc040;
     --color-primary: #5a97fa;
     --color-secondary: #3e5379;
@@ -95,4 +96,18 @@
 .best_sale_slider .slick-list .slick-track {
   display: flex;
   gap: 12px;
+}
+
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  color: var(--color-brand-lite);
 }

@@ -24,6 +24,7 @@ module.exports = {
         skin: {
           brand: "var(--color-brand)",
           brandDark: "var(--color-brand-dark)",
+          brandLite: "var(--color-brand-lite)",
           brand2: "var(--color-brand-2)",
           primary: "var(--color-primary)",
           secondary: "var(--color-secondary)",

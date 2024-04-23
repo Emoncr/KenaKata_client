@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import NavSearch from '../FormComponents/NavSearch'
 import { Heart, Recycle, ShoppingCart, UserRound } from 'lucide-react'
+import Cart from './Cart'
 
 const MiddleHeader = () => {
+  const [isCartOpen, setIsCartOpen] = useState(false);
   return (
     <div className='py-7 border-b border-solid border-border hidden md:block'>
       <div className="container grid grid-cols-12 items-center">
@@ -13,12 +15,14 @@ const MiddleHeader = () => {
           <NavSearch />
         </div>
 
+        {/* Cart Items Component */}
+        <Cart cartClick={{ isCartOpen, setIsCartOpen }} />
 
         <div className='flex items-center justify-end gap-5 xl:gap-10 col-span-5'>
           <button className='flex items-center gap-1 text-skin-textBody font-lato font-semibold text-sm duration-300 hover:text-skin-heading relative'>
             <Recycle />
             <div className='absolute -top-5 left-2 h-6 w-6 bg-skin-brandDark  rounded-full flex items-center justify-center'>
-              <p className='font-quicksand font-semibold text-xs text-white'>12</p>
+              <p className='font-quicksand font-semibold text-xs text-white'>1</p>
             </div>
             <p>Compare</p>
           </button>
@@ -27,13 +31,15 @@ const MiddleHeader = () => {
           <button className='flex items-center gap-1 text-skin-textBody font-lato font-semibold text-sm duration-300 hover:text-skin-heading relative'>
             <Heart />
             <div className='absolute -top-5 left-2 h-6 w-6 bg-skin-brandDark  rounded-full flex items-center justify-center'>
-              <p className='font-quicksand font-semibold text-xs text-white'>12</p>
+              <p className='font-quicksand font-semibold text-xs text-white'>1</p>
             </div>
             <p>WishList</p>
           </button>
 
 
-          <button className='flex items-center gap-1 text-skin-textBody font-lato font-semibold text-sm duration-300 hover:text-skin-heading relative'>
+          <button
+            onClick={() => setIsCartOpen(!isCartOpen)}
+            className='flex items-center gap-1 text-skin-textBody font-lato font-semibold text-sm duration-300 hover:text-skin-heading relative'>
             <ShoppingCart />
             <div className='absolute -top-5 left-2 h-6 w-6 bg-skin-brandDark  rounded-full flex items-center justify-center'>
               <p className='font-quicksand font-semibold text-xs text-white'>1</p>
@@ -45,11 +51,11 @@ const MiddleHeader = () => {
           <button className='flex items-center gap-1 text-skin-textBody font-lato font-semibold text-sm duration-300 hover:text-skin-heading relative group'>
             <UserRound />
             <p>Account</p>
-            {/* <div className='absolute hidden group-hover:block  lg:p-5 bottom-0 left-0 '>
+            <div className='absolute hidden group-hover:block  lg:p-5 bottom-0 left-0 '>
               <div className='bg-white border-border_2 shadow-lg mt-16 rounded-sm p-3'>
                 <p className='text-base font-medium font-lato'>Dashboard</p>
               </div>
-            </div> */}
+            </div>
           </button>
 
         </div>
