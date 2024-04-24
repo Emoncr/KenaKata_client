@@ -13,7 +13,7 @@ const NavbarMobile = () => {
             <div className="container px-2 2xl:px-0">
                 <div className="grid grid-cols-12 items-center">
                     <div className='col-span-5 xl:col-span-4 lg:hidden'>
-                        <img width={100} src="https://themepanthers.com/wp/nest/d1/wp-content/uploads/2022/02/logo.png" alt="LOGO" />
+                        <img width={100} src="https://res.cloudinary.com/du6ditswt/image/upload/v1713471381/qmxvni3ihjoi4xfef9p5.png" alt="LOGO" />
                     </div>
 
                     <div className='col-span-7 xl:col-span-6 2xl:col-span-5 '>

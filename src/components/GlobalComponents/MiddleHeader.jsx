@@ -1,10 +1,17 @@
 import React, { useState } from 'react'
 import NavSearch from '../FormComponents/NavSearch'
-import { Heart, Recycle, ShoppingCart, UserRound } from 'lucide-react'
+import { Heart, Recycle, ShoppingCart, Star, UserRound } from 'lucide-react'
+import Link from "next/link"
 import Cart from './Cart'
+import WishListPd from './WishListPd'
 
 const MiddleHeader = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
+  const [isUserOpen, setIsUserOpen] = useState(false);
+  const [isWishListOpen, setIsWishListOpen] = useState(false);
+
+
+
   return (
     <div className='py-7 border-b border-solid border-border hidden md:block'>
       <div className="container grid grid-cols-12 items-center">
@@ -28,12 +35,25 @@ const MiddleHeader = () => {
           </button>
 
 
-          <button className='flex items-center gap-1 text-skin-textBody font-lato font-semibold text-sm duration-300 hover:text-skin-heading relative'>
+          <button
+            onClick={() => setIsWishListOpen(!isWishListOpen)}
+            className='flex items-center gap-1 text-skin-textBody font-lato font-semibold text-sm duration-300 hover:text-skin-heading relative'>
             <Heart />
             <div className='absolute -top-5 left-2 h-6 w-6 bg-skin-brandDark  rounded-full flex items-center justify-center'>
               <p className='font-quicksand font-semibold text-xs text-white'>1</p>
             </div>
             <p>WishList</p>
+            {
+              isWishListOpen &&
+              <div className='absolute    -top-10 -right-8 w-[300px] rounded-md py-2 '>
+                <div className='bg-white border-border_2 shadow-lg mt-16 p-2 rounded-sm flex items-start justify-start gap-2 flex-col'>
+                  <WishListPd />
+                  <WishListPd />
+                  <WishListPd />
+                  <WishListPd />
+                </div>
+              </div>
+            }
           </button>
 
 
@@ -48,14 +68,27 @@ const MiddleHeader = () => {
           </button>
 
 
-          <button className='flex items-center gap-1 text-skin-textBody font-lato font-semibold text-sm duration-300 hover:text-skin-heading relative group'>
+          <button
+            onClick={() => setIsUserOpen(!isUserOpen)}
+            className='flex items-center gap-1 text-skin-textBody font-lato font-semibold text-sm duration-300 hover:text-skin-heading relative'>
             <UserRound />
             <p>Account</p>
-            <div className='absolute hidden group-hover:block  lg:p-5 bottom-0 left-0 '>
-              <div className='bg-white border-border_2 shadow-lg mt-16 rounded-sm p-3'>
-                <p className='text-base font-medium font-lato'>Dashboard</p>
+            {
+              isUserOpen &&
+              <div className='absolute    -top-10 -right-8 w-[200px] rounded-md py-2 '>
+                <div className='bg-white border-border_2 shadow-lg mt-16 p-2 rounded-sm flex items-start justify-start gap-1 flex-col'>
+                  <Link href={"/"} className="font-medium font-quicksand hover:bg-skin-brand bg-transparent transition-all duration-200 text-skin-heading hover:text-white px-3 py-2 rounded-sm w-full text-left text-base ">
+                    Dashboard
+                  </Link>
+                  <Link href={"/"} className="font-medium font-quicksand hover:bg-skin-brand bg-transparent transition-all duration-200 text-skin-heading hover:text-white px-3 py-2 rounded-sm w-full text-left text-base ">
+                    Profile
+                  </Link>
+                  <Link href={"/"} className="font-medium font-quicksand hover:bg-skin-brand bg-transparent transition-all duration-200 text-skin-heading hover:text-white px-3 py-2 rounded-sm w-full text-left text-base ">
+                    Login
+                  </Link>
+                </div>
               </div>
-            </div>
+            }
           </button>
 
         </div>
