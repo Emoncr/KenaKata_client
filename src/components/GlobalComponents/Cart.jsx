@@ -2,10 +2,17 @@
 import React from 'react'
 import CartProduct from './CartPd';
 import { X } from 'lucide-react';
+import Subtotal from './SubtotalComp';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+
+
+
 
 const Cart = ({ cartClick }) => {
     const { isCartOpen, setIsCartOpen } = cartClick;
 
+    const router = useRouter()
 
     return (
         <div
@@ -29,11 +36,13 @@ const Cart = ({ cartClick }) => {
                         <CartProduct />
                         <CartProduct />
                     </div>
-                    <div className='mt-4'>
-                        <div>
-                            <p className='text-2xl text-skin-heading font-bold'>Total $600</p>
-                        </div>
-                        <button className='w-full bg-skin-brand text-white font-bold font-quicksand text-lg py-2 mt-5'>Checkout Now</button>
+                    <Subtotal />
+                    <div className='mt-4 w-full'>
+                        <button
+                            onClick={() => router.push("/checkout")}
+                            className='w-full bg-skin-brand text-white font-bold font-quicksand text-lg py-2 '>
+                            Checkout N
+                        </button>
                     </div>
                 </div>
             </div>

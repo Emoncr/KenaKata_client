@@ -35,6 +35,7 @@ module.exports = {
           background_1: "var(--background-1)",
           background_2: "var(--background-2)",
           background_3: "var(--background-3)",
+          background_4: "var(--background-4)",
 
           // text colors
           text: "var(--color-text)",
@@ -56,6 +57,7 @@ module.exports = {
       borderColor: {
         border: "var(--border-color)",
         border_2: "var(--border-color-2)",
+        border_3: "var(--border-color-3)",
       },
       boxShadow: {
         primary: "var(--box-shadow-1)",
